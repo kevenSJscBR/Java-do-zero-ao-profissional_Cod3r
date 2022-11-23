@@ -1,0 +1,24 @@
+package controle.exercicios;
+
+import java.util.Scanner;
+
+public class Exercicio04 {
+
+	public static void main(String[] args) {    
+		
+		Scanner entrada = new Scanner(System.in);
+		System.out.print("Digite um numero: ");
+		int numeroInformadoPeloUsuario = entrada.nextInt();
+		boolean ehPrimo;
+		
+		if (numeroInformadoPeloUsuario % 2 ==0) {
+			ehPrimo = true;
+			System.out.println("Esse numero eh primo");
+		} else {
+			ehPrimo = false;
+			System.out.println("Esse numero nao eh primo");
+		}
+		
+		entrada.close();
+	}
+}
