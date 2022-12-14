@@ -1,0 +1,8 @@
+package oo.encapsulamento;
+
+public class PessoaTeste {
+	
+	Pessoa p1 = new Pessoa();
+	p1.idade = -30;
+
+}
